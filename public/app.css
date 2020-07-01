@@ -1,0 +1,284 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+#contact {
+    color: #bebebe;
+    position: relative;
+    background-color: #252525;
+}
+
+#contact a {
+    font-size: 18px;
+    opacity: 0.6;
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    opacity: 1;
+}
+
+#contact .container {
+    padding-bottom: 160px;
+}
+
+#contact .footer {
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+#contact .footer a {
+    color: rgb(104, 103, 103);
+    font-size: 1em;
+    opacity: 0.7;
+}
+
+#contact .footer:hover {
+    opacity: 1;
+}
+
+.container {
+    width: 75%;
+    padding: 1.5em 0em 1.5em 0em;
+}
+
+.container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-fluid:nth-child(even) {
+    color: #acabab;
+    background-color: #434242;
+}
+#experience .row:hover {
+    color: #2b2b2b;
+    background-color: white;
+}
+
+.face {
+    height: auto;
+    width: 80%;
+}
+
+figure.effect {
+	background: #4291d1;
+	color: #FFF;
+}
+
+figure.effect img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect:hover img {
+	opacity: 0.2;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect figcaption {
+	text-align: left;
+}
+
+figure.effect h3 {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 20px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect:hover h3 {
+	opacity: 1;
+}
+
+figure.effect h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect:hover h3::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect p {
+	padding-top: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+figure.effect:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.fixed {
+    position: fixed;
+    top: 60px;
+}
+
+.footer {
+    color: rgb(90, 90, 90);
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 18%;
+    right: 20%;
+}
+
+h1, h2, h3{
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #4291d1;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+  }  
+
+i {
+    margin-right: 12px;
+}
+
+img {
+    width: 90%;
+}
+
+.jumbotron {
+    background-color: #434242;
+    text-align: center;
+    color: #acabab;
+}
+
+li {
+    padding-bottom: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav {
+    right: 5%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav .active {
+    background-color: #4291d1;
+    color: white;
+}
+
+.nav .active a {
+    opacity: 1;
+}
+
+.nav li {
+    background-color: #222;
+    padding: 1.5em .75em 1.5em .75em;
+    font-weight: 550;
+}
+
+.nav li a {
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.nav li a:hover {
+    opacity: 1;
+}
+
+#projects .row > div { margin-bottom: 30px; }
+#projects figure { position: relative; overflow: hidden; }
+#projects figure h3 { color: #FFF; font-weight: 600; margin-bottom: 5px; }
+#projects figure p > strong { width: 60px; display: inline-block; margin: 0px; }
+#projects figure img { width: 110%; }
+#projects figure figcaption {
+    padding: 20px 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+#projects figure a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+#projects figure .icon { 
+    background: #4291d1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 48px;
+    height: 48px;
+}
+#projects figure .icon span {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px;
+}
+
+.row {
+    transition: 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table td {
+    transition: 0.3s;
+}
+
+table td:hover {
+    color: white;
+    background-color: #6d6d6d;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+}
+
+.unfixed {
+    position: absolute;
+    top: 338px;
+}
