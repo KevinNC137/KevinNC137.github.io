@@ -53,7 +53,7 @@ body {
 
 .container-fluid:nth-child(even) {
     color: #acabab;
-    background-color: #434242;
+    background-color: #323638;
 }
 #experience .row:hover {
     color: #2b2b2b;
