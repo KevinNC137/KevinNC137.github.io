@@ -224,7 +224,7 @@ li {
 
 #projects .row > div { margin-bottom: 30px; }
 #projects figure { position: relative; overflow: hidden; }
-#projects figure h3 { color: rgb(209, 205, 199); font-weight: 600; margin-bottom: 5px; }
+#projects figure h3 { color: white; font-weight: 600; margin-bottom: 5px; }
 #projects figure p > strong { width: 60px; display: inline-block; margin: 0px; }
 #projects figure img { width: 110%; }
 #projects figure figcaption {
