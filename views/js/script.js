@@ -2,7 +2,6 @@ $(document).on('scroll', onScroll);
 
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
-    console.log(scrollPos);
 
     if (scrollPos > 280) {
         $('.nav').removeClass('unfixed');
