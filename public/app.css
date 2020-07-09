@@ -142,7 +142,7 @@ figure.effect:hover p {
 
 .fixed {
     position: fixed;
-    top: 60px;
+    top: 90px;
 }
 
 .footer {
@@ -296,5 +296,5 @@ ul.no-bullets {
 
 .unfixed {
     position: absolute;
-    top: 338px;
+    top: 370px;
 }
